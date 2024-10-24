@@ -1,0 +1,1 @@
+export { default } from "file:///Users/rekar/Documents/Software%20Development/Web%20Application/FullStack/Royal%20Home/royalhome-frontend/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

@@ -1,0 +1,1 @@
+export { default } from "/Users/rekar/Documents/Software Development/Web Application/FullStack/Royal Home/royalhome-frontend/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue"
