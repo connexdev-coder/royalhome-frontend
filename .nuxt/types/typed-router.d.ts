@@ -21,6 +21,9 @@ declare module 'vue-router/auto-routes' {
     'index': RouteRecordInfo<'index', '/', Record<never, never>, Record<never, never>>,
     'login': RouteRecordInfo<'login', '/login', Record<never, never>, Record<never, never>>,
     'panel': RouteRecordInfo<'panel', '/panel', Record<never, never>, Record<never, never>>,
-    'panel-products-id': RouteRecordInfo<'panel-products-id', '/panel/products/:id()', { id: ParamValue<true> }, { id: ParamValue<false> }>,
+    'panel-cosmetic-brands': RouteRecordInfo<'panel-cosmetic-brands', '/panel/cosmetic/brands', Record<never, never>, Record<never, never>>,
+    'panel-furniture-category': RouteRecordInfo<'panel-furniture-category', '/panel/furniture/category', Record<never, never>, Record<never, never>>,
+    'panel-furniture-category-id': RouteRecordInfo<'panel-furniture-category-id', '/panel/furniture/category/:id()', { id: ParamValue<true> }, { id: ParamValue<false> }>,
+    'panel-furniture-orders': RouteRecordInfo<'panel-furniture-orders', '/panel/furniture/orders', Record<never, never>, Record<never, never>>,
   }
 }

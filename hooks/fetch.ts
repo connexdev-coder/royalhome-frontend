@@ -78,7 +78,7 @@ export async function useUpload(path: string, file: File) {
   const token = useCookie("token");
 
   const formData = new FormData();
-  formData.append("image", file);
+  formData.append("file", file);
 
   const { data, error, status } = await useFetch(
     `${runtimeConfig.public.api_url + path}`,

@@ -2,11 +2,11 @@
   <div style="direction: ltr" class="flex flex-col items-center">
     <!-- Header -->
     <div
-      class="bg-sixty text-overSixty border-b-[0.5px] w-full flex flex-row items-center justify-between px-3 py-2"
+      class="bg-ten text-overTen border-b-[0.5px] w-full flex flex-row items-center justify-between px-3 py-2"
     >
-      <h1 class="font-bold" v-if="userDetails != null">
+      <NuxtLink to="/panel" class="font-bold" v-if="userDetails != null">
         {{ userDetails.name }}
-      </h1>
+      </NuxtLink>
 
       <button
         @click="logout"
@@ -18,7 +18,7 @@
 
     <!-- Content -->
     <div class="overflow-y-auto overflow-x-clip h-full w-full">
-      <div class="p-5 h-full w-full">
+      <div class="py-5 px-3 h-full w-full">
         <slot />
       </div>
     </div>
@@ -31,3 +31,11 @@ import { useProfileStore } from "~/stores/users/profile_store";
 const { logout } = useProfileStore();
 const { userDetails } = storeToRefs(useProfileStore());
 </script>
+
+<style>
+.cell_overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+</style>

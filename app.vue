@@ -18,7 +18,7 @@
 const { locale } = useI18n();
 
 useHead({
-  title: "Vazzomi",
+  title: "Royal Home  ",
   meta: [{ name: "description", content: "" }],
 });
 </script>

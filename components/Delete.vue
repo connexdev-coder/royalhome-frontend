@@ -1,7 +1,11 @@
 <template>
   <Dialog>
     <DialogTrigger>
-      <div class="bg-red-500 text-white py-1 rounded-lg w-full">سڕینەوە</div>
+      <div
+        class="bg-destructive text-sixty px-3 py-1 rounded-sm w-full text-sm"
+      >
+        Delete
+      </div>
     </DialogTrigger>
     <DialogContent>
       <h1 class="text-center">دڵنیایت لە ئەنجامدانی؟</h1>
